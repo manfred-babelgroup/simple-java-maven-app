@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                bat 'wsl bash .\\jenkins\\scripts\\deliver.bat'
+                bat 'wsl bash .\\jenkins\\scripts\\deliver.sh'
             }
         }
     }
