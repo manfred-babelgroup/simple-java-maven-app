@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                bat 'bash .\\jenkins\\scripts\\deliver.sh'
+                bat '.\\jenkins\\scripts\\deliver.bat'
             }
         }
     }
